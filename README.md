@@ -100,3 +100,11 @@ def filter_by_rbs(orfs, genome, max_distance=20):
     return filtered_orfs
 
 Test your program on multiple FASTA files and genomes to ensure it works as expected
+
+#Command-line arguments: Accepts parameters like input file, minimum ORF length, and RBS search distance.
+
+Command-line Example:
+
+% python gene_finder.py genome.fasta --min_length 150 --max_rbs_distance 15
+
+This will look for ORFs in genome.fasta, filter by ORFs with at least 150 codons, and search for Shine-Dalgarno sequences within 15 bp upstream of the start codon.
