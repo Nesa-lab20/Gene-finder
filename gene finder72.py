@@ -1,4 +1,7 @@
 # Gene-finder
+
+
+
 # Codon to amino acid table
 codon_table = {
     'ATA':'I', 'ATC':'I', 'ATT':'I', 'ATG':'M',
