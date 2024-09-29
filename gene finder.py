@@ -58,7 +58,7 @@ def filter_by_rbs(orfs, genome, max_distance=20):
 def main():
     parser = argparse.ArgumentParser(description="Gene Finder Tool")
     parser.add_argument("input_file", type=str, help="Path to the FASTA file")
-    parser.add_argument("--min_length", type=int, default=100, help="Minimum length of ORFs (in codons)")
+    parser.add_argument("--min_length", type=int, default=100000, help="Minimum length of ORFs (in codons)")
     parser.add_argument("--max_rbs_distance", type=int, default=20, help="Maximum distance for Shine-Dalgarno sequence upstream of start codon")
     args = parser.parse_args()
 
