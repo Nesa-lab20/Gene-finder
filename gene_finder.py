@@ -1,3 +1,4 @@
+#1 just reading frames
 from Bio import SeqIO
 
 def find_reading_frames(fasta_file):
