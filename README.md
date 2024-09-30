@@ -35,7 +35,7 @@ nano gene_finder.py
 python gene_finder.py
 
 ```
-The file with the answer for applying the code gene_finder.py to the extracted_gene.FASTA is ORF.txt
+The file with the answer for applying the code gene_finder.py to the extracted_gene.FASTA is ORFS.txt
 
 # 2 Extend your tool to include the reverse complement and search in all six possible reading frames for genes.
 We can just modify the code gene_finder.py
