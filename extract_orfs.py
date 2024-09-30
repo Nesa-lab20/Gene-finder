@@ -53,14 +53,19 @@ def read_fasta(file_path):
 def process_files(directory):
     all_proteins = set()
     
-    for filename in os.listdir(directory):
-        if filename.endswith('.fna'):
-            file_path = os.path.join(directory, filename)
-            dna_sequence = read_fasta(file_path)
-            reverse_dna_sequence = reverse_complement(dna_sequence)
-            
-            proteins = possible_protein_strings(dna_sequence) | possible_protein_strings(reverse_dna_sequence)
-            all_proteins.update(proteins)
+    for dirpath, _, filenames in os.walk(directory):
+        for filename in filenames:
+            if filename.endswith('.fna'):
+                file_path = os.path.join(dirpath, filename)
+                dna_sequence = read_fasta(file_path)
+                print(f"Processing file: {file_path}")  # Debug: show full path
+                print(f"DNA Sequence: {dna_sequence}")  # Debug: show sequence
+                
+                reverse_dna_sequence = reverse_complement(dna_sequence)
+                proteins = possible_protein_strings(dna_sequence) | possible_protein_strings(reverse_dna_sequence)
+                print(f"Found proteins: {proteins}")  # Debug: show found proteins
+                
+                all_proteins.update(proteins)
 
     return all_proteins
 
@@ -71,3 +76,6 @@ if __name__ == "__main__":
     with open('output_proteins.txt', 'w') as output_file:
         for protein in sorted(proteins):
             output_file.write(protein + '\n')
+
+    if not proteins:
+        print("No proteins found.")
