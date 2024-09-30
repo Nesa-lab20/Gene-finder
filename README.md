@@ -20,7 +20,7 @@ git init
 touch gene_finder.py README.md
 ```
 
-# Create the main python file and use an input FASTA file to test
+# 1 Create the main python file and use an input FASTA file to test
 The tool you write needs to take command line parameters
 for the input file. The input file should consist of a single FASTA file
 containing a single genome.
@@ -32,4 +32,25 @@ compliments.
 nano gene_finder.py
 ```
 
+# 2 Extend your tool to include the reverse complement and search in all six possible reading frames for genes.
+
+
+# 3 Use your code to solve the Open Reading Frame problem on Rosalind (Problem 72).
+The code was copied to jupyter notebook for the submission on Rosalind
+The file with only the code is named and found in this repository as Rosalind72.py
+```markdown
+Open Rosalind72.py
+```markdown
+
+# 4 Simple command for the 14 bacterial genomes- find their ORFs
+Apply your code to the genomes you downloaded and find all
+Open Reading Frames in the 14 genomes you downloaded.
+
+# 5 Implement a filter by length: discard short ORFs that are unlikely to be functional genes
+
+
+# 6 Implement gene finder with length, rbs site and rbs type filter
+Filter all predicted ORFs based on
+whether they contain a Shine-Dalgarno sequence up to 20bp upstream of
+the start codon.
 
