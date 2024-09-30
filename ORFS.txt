@@ -1,0 +1,19 @@
+Partial codon, len(sequence) not a multiple of three. Explicitly trim the sequence or add trailing N before translation. This may become an error in future.
+  warnings.warn(
+Reading Frame 1:
+MKRISTTITTTITITTGNGAG*
+
+Reading Frame 2:
+*NALAPPLPPPSPLPQVTVRA
+
+Reading Frame 3:
+ETH*HHHYHHHHHYHR*RCGL
+
+Reading Frame 4:
+SARTVTCGNGDGGGNGGANAFH
+
+Reading Frame 5:
+QPAPLPVVMVMVVVMVVLMRF
+
+Reading Frame 6:
+SPHRYLW*W*WWW*WWC*CVS
