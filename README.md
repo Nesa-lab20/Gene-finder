@@ -1,4 +1,11 @@
 ## README- script/manual WEEK 3-4    
+```markdown
+#LLM used: CHAT GPT-40 mini
+Below is the full prompt that was used to guide the development of the provided Python code for extracting distinct protein strings from a DNA sequence in FASTA format:
+#Prompt: 
+#"Create a Python script that reads a DNA sequence from a given FASTA format input. The script should extract all distinct candidate protein strings that can be translated from open reading frames (ORFs) of the DNA sequence. Ensure the script includes a codon table for translation and handles both the original and reverse complement strands"
+```
+## START 
 First real git repository — we will write a simple tool that
 finds genes in genome sequence using Python, and using a git repository to
 track changes as we add features.
