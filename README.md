@@ -1,6 +1,7 @@
-#README- script/manual
+#README- script/manual    
 #In gene_finder.py, start by setting up a basic main function and include a placeholder for reading command-line arguments:
 
+    
 import argparse
 
 def main():
@@ -14,9 +15,10 @@ def main():
 if __name__ == "__main__":
     main()
 
-Commit the initial main functionality
+#Commit the initial main functionality
+    
 
-Implement the code to read the FASTA file and find Open Reading Frames (ORFs):
+#Implement the code to read the FASTA file and find Open Reading Frames (ORFs):
 
 def read_fasta(file_path):
     with open(file_path, "r") as file:
@@ -42,7 +44,7 @@ def find_orfs(genome):
                         break
 
     return orfs
-
+-#
 def main():
     parser = argparse.ArgumentParser(description="Gene Finder Tool")
     parser.add_argument("input_file", type=str, help="Path to the FASTA file")
