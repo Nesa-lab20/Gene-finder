@@ -11,7 +11,7 @@ module load bio-python
 ```
 
 # Create the directory and Repository
-The "gene_finder.py" at the end should be one file that works for the whole problem
+The "gene_finder.py" at the end should be one file that works for the whole problem- ANSWER: the complete file SDS.py is the end result
 
 ```markdowm
 mkdir Gene-finder-3-4
@@ -29,14 +29,24 @@ start (‘ATG’) and stop codon (‘TAA’, ‘TAG’, ‘TGA’) in that FASTA
 you must consider three possible reading frames but may ignore reverse
 compliments.
 
-  # Objective: Find Reading Frames from a FASTA file (ecoli.FASTA)
+  # Objective: Find Reading Frames from a FASTA file (extracted_gene.FASTA)
 ```
 nano gene_finder.py
+python gene_finder.py
 
 ```
+The file with the answer for applying the code gene_finder.py to the extracted_gene.FASTA is ORF.txt
 
 # 2 Extend your tool to include the reverse complement and search in all six possible reading frames for genes.
+We can just modify the code gene_finder.py
+Copy the code and make a new script
 
+```
+nano gene_finder2.py
+python gene_finder2.py
+
+```
+The file with the answer for applying the code gene_finder.py to the ecoli.FASTA is ORF.txt
 
 # 3 Use your code to solve the Open Reading Frame problem on Rosalind (Problem 72).
 The code was copied to jupyter notebook for the submission on Rosalind
@@ -55,10 +65,21 @@ python extract_orfs.py
 Output: The script will create a file named output_proteins.txt containing all the unique open reading frames found in the .fna files in the specified directory.
 
 # 5 Implement a filter by length: discard short ORFs that are unlikely to be functional genes
+Modify your code to minimize the ORFs found, the less likely to be functional genes
 
+```
+nano DiscardShortORFS.py
+python DiscardShortORFS.py
+```
+Output: The script will create a file named filtered_proteins_min_length.txt containing all the unique open reading frames, without the discarded short ones.
 
 # 6 Implement gene finder with length, rbs site and rbs type filter
 Filter all predicted ORFs based on
 whether they contain a Shine-Dalgarno sequence up to 20bp upstream of
 the start codon.
+```
+nano SDS.py
+python SDS.py
+```
+Output: The script will create a file named filtered_proteins_with_SD.txt containing all the unique open reading frames found in the .fna files in the specified directory.
 
