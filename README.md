@@ -1,5 +1,5 @@
-#README- script/manual    
-#In gene_finder.py, start by setting up a basic main function and include a placeholder for reading command-line arguments:
+## README- script/manual    
+# In gene_finder.py, start by setting up a basic main function and include a placeholder for reading command-line arguments:
 
     
 import argparse
