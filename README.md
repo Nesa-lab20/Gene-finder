@@ -46,7 +46,7 @@ nano gene_finder2.py
 python gene_finder2.py
 
 ```
-The file with the answer for applying the code gene_finder.py to the ecoli.FASTA is ORF.txt
+The file with the answer for applying the code gene_finder.py to the ecoli.FASTA is ORF2.txt
 
 # 3 Use your code to solve the Open Reading Frame problem on Rosalind (Problem 72).
 The code was copied to jupyter notebook for the submission on Rosalind
