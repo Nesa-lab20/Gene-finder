@@ -28,8 +28,11 @@ Your tool should read a FASTA file, and output any region between a
 start (‘ATG’) and stop codon (‘TAA’, ‘TAG’, ‘TGA’) in that FASTA file;
 you must consider three possible reading frames but may ignore reverse
 compliments.
+
+  # Objective: Find Reading Frames from a FASTA file (ecoli.FASTA)
 ```
 nano gene_finder.py
+
 ```
 
 # 2 Extend your tool to include the reverse complement and search in all six possible reading frames for genes.
