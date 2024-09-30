@@ -7,5 +7,8 @@ Then, let’s create our main file — let’s call it gene finder.py.
 
 # 1 Install BioPython
 
-ssh baezvg@ilogin.ibex.kaust.edu.sa
-module load bio-python
+```markdown
+ssh baezvg@ilogin.ibex.kaust.edu.sa  
+module load bio-python  
+
+
