@@ -1,5 +1,5 @@
 ## README- script/manual WEEK 3-4    
-first real git repository — we will write a simple tool that
+First real git repository — we will write a simple tool that
 finds genes in genome sequence using Python, and using a git repository to
 track changes as we add features.
 
