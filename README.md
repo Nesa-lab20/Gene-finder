@@ -40,7 +40,7 @@ The code was copied to jupyter notebook for the submission on Rosalind
 The file with only the code is named and found in this repository as Rosalind72.py
 ```markdown
 Open Rosalind72.py
-```markdown
+```
 
 # 4 Simple command for the 14 bacterial genomes- find their ORFs
 Apply your code to the genomes you downloaded and find all
