@@ -7,8 +7,7 @@ track changes as we add features.
 
 ```markdown
 ssh baezvg@ilogin.ibex.kaust.edu.sa  
-module load bio-python  
+module load bio-python
 
-```markdown
 
 # 2 Create the 
