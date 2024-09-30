@@ -45,6 +45,11 @@ Open Rosalind72.py
 # 4 Simple command for the 14 bacterial genomes- find their ORFs
 Apply your code to the genomes you downloaded and find all
 Open Reading Frames in the 14 genomes you downloaded.
+```
+nano extract_orfs.py
+python extract_orfs.py
+```
+Output: The script will create a file named output_proteins.txt containing all the unique open reading frames found in the .fna files in the specified directory.
 
 # 5 Implement a filter by length: discard short ORFs that are unlikely to be functional genes
 
