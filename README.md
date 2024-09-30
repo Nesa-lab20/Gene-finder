@@ -56,6 +56,7 @@ python gene_finder2.py
 The file with the answer for applying the code gene_finder.py to the ecoli.FASTA is ORF2.txt
 
 # 3 Use your code to solve the Open Reading Frame problem on Rosalind (Problem 72).
+The LLM was used to modify the code "gene_finder2.py" to accomodate the input given by Rosalind.
 The code was copied to jupyter notebook for the submission on Rosalind
 The file with only the code is named and found in this repository as Rosalind72.py
 ```markdown
@@ -63,8 +64,9 @@ Open Rosalind72.py
 ```
 
 # 4 Simple command for the 14 bacterial genomes- find their ORFs
-Apply your code to the genomes you downloaded and find all
+Apply your renewed code from Rosalind to the genomes you downloaded from the ncbidataset and find all
 Open Reading Frames in the 14 genomes you downloaded.
+You need to know where are the .fna files in the directory
 ```
 nano extract_orfs.py
 python extract_orfs.py
