@@ -10,6 +10,8 @@ First real git repository — we will write a simple tool that
 finds genes in genome sequence using Python, and using a git repository to
 track changes as we add features.
 
+>**NOTE= Most of the .txt files for the output were too big to clone on to Github**
+
 # Install and load BioPython on your Terminal
 
 ```markdown
