@@ -73,7 +73,8 @@ You need to know where are the .fna files in the directory
 nano extract_orfs.py
 python extract_orfs.py
 ```
-Output: The script will create a file named output_proteins.txt containing all the unique open reading frames found in the .fna files in the specified directory.
+Output: The script will create a file named output_proteins.txt containing all the unique open reading frames found in the .fna files in the specified directory.  
+
 **UDPATE** the new code... which was just copied to the same file will output for every genome a new .txt file inside the directory of the genomes downloaded with a new name "gene name"_output_proteins.txt and so on. they were copied and compiled in a OUTPUTS_4.zip file.
 
 # 5 Implement a filter by length: discard short ORFs that are unlikely to be functional genes
@@ -83,7 +84,8 @@ Modify your code to minimize the ORFs found, the less likely to be functional ge
 nano DiscardShortORFS.py
 python DiscardShortORFS.py
 ```
-Output: The script will create a file named filtered_proteins_min_length.txt containing all the unique open reading frames, without the discarded short ones.
+Output: The script will create a file named filtered_proteins_min_length.txt containing all the unique open reading frames, without the discarded short ones.  
+
 **UDPATE** the new code... which was just copied to the same file will output for every genome a new .txt file inside the directory of the genomes downloaded with a new name "gene name"_filtered_proteins.txt and so on. they were copied and compiled in a OUTPUTS_5.zip file.
 
 # 6 Implement gene finder with length, rbs site and rbs type filter
