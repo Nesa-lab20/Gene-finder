@@ -40,8 +40,10 @@ compliments.
 
   # Objective: Find Reading Frames from a FASTA file (extracted_gene.FASTA)
 ```
-nano gene_finder.py
-python gene_finder.py
+nano W4_1.py
+python W4_1.py
+
+ python W4_1.py Rosalind.fasta > problem1.txt
 
 ```
 The file with the answer for applying the code gene_finder.py to the extracted_gene.FASTA is ORFS.txt
